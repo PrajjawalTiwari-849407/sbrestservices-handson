@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 public class Country {
 	private String code;
 	private String name;
-	private static final Logger LOGGER = LoggerFactory.getLogger(SpringLearnApplication.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(Country.class);
 
 	public Country() {
 		LOGGER.debug("Inside Country Constructor.");
